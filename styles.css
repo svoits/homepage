@@ -33,7 +33,6 @@ body {
 .fv {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .resume {
@@ -238,6 +237,10 @@ body {
   margin-bottom: 20px;
 }
 
+.additional-info__education-university.extra-margin {
+  margin-top: 10px;
+}
+
 .additional-info__education-university-durability {
   color: var(--durability-text-color);
   text-align: left;
@@ -248,7 +251,6 @@ body {
 .additional-info__education-university-speciality {
   color: var(--primary-text-color);
   text-align: left;
-  margin-bottom: 10px;
 }
 
 .additional-info__education-university-name {
